@@ -2,7 +2,7 @@ import java.util.*;
 
 public class LabAllocation {
 
-    public static void main(){
+    public static void main(String[] args){
 
         int x,y,z,n;
         Scanner sc=new Scanner(System.in);
