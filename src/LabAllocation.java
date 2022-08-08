@@ -6,13 +6,13 @@ public class LabAllocation {
 
         int x,y,z,n;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the capacity of first lab");
+        System.out.println("Enter the capacity of first lab: ");
         x=sc.nextInt();
-        System.out.println("Enter the capacity of second lab");
+        System.out.println("Enter the capacity of second lab: ");
         y=sc.nextInt();
-        System.out.println("Enter the capacity of third lab");
+        System.out.println("Enter the capacity of third lab: ");
         z=sc.nextInt();
-        System.out.println("Enter the number of students in the class");
+        System.out.println("Enter the number of students in the class: ");
         n=sc.nextInt();
 
         if(n<x){
